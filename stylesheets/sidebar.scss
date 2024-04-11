@@ -17,10 +17,20 @@
       var(--composer-vh, var(--1dvh)) * 100 - var(--header-offset, 0px) - 3em
     );
     top: calc(var(--header-offset) + 1em);
-    .sidebar-container {
-      border: none;
+}
+
+.sidebar-container {
+    border: none;
+}
+
+/* Media query for screens with a width of 767px and below */
+@media (max-width: 767px) {
+    .sidebar-wrapper {
+        border: none; /* Removes border */
+        box-shadow: none; /* Removes box-shadow */
     }
-  }
+}
+
 }
 
 .sidebar-footer-wrapper {

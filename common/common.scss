@@ -277,13 +277,14 @@ a {
   }
 }
 
+.sidebar-section-link-wrapper .sidebar-section-link.active {
+  background: #000000 !important;
+}
 .menu-panel .widget-link:hover,
 .menu-panel .widget-link:focus,
 .menu-panel .categories-link:hover,
 .menu-panel .categories-link:focus {
   background-color: var(--tertiary-low);
-  outline: 1px solid rgb(0, 0, 0);
-  outline-offset: -1px;
 }
 
 .btn-default {

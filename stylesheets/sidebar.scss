@@ -10,7 +10,7 @@
     margin-top: 1em;
     box-shadow: 4px 4px 0px rgb(0, 0, 0);
     outline: 1px solid rgb(0, 0, 0);
-    outline-offset: -0.5px;
+    outline-offset: -1px;
     border-radius: var(--mint-border-radius);
     height: calc(
       var(--composer-vh, var(--1dvh)) * 100 - var(--header-offset, 0px) - 3em

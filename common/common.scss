@@ -228,7 +228,7 @@ a {
 .select-kit.dropdown-select-box .dropdown-select-box-header {
   background: var(--tertiary);
   border-radius: var(--mint-border-radius);
-  border: 1px solid rgb(0, 0, 0);
+  border: 1px solid rgb(0, 0, 0) !important;
   color: var(--secondary);
   svg {
     color: var(--secondary);
@@ -243,7 +243,7 @@ a {
   .dropdown-select-box-header {
   background: transparent;
   color: var(--primary-medium);
-  border: 1px solid rgb(0, 0, 0);
+  border: 1px solid rgb(0, 0, 0) !important;
   border-radius: 0;
   svg {
     color: currentColor;

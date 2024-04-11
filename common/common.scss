@@ -223,8 +223,12 @@ a {
     background: var(--mint-color-mint);
     color: var(--secondary);
     border: 1px solid rgb(0, 0, 0);
-  }
+    border-bottom: 2px solid rgb(0, 0, 0) !important;
 }
+
+
+  }
+
 
 .select-kit.dropdown-select-box .dropdown-select-box-header {
   background: var(--tertiary);

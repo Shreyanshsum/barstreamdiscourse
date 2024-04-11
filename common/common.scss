@@ -276,7 +276,9 @@ a {
     color: var(--secondary);
   }
 }
-
+html.has-full-page-chat body #main-outlet .full-page-chat {
+  border-radius: 12px;
+}
 .c-navbar-container {
   border-radius: 12px;
  

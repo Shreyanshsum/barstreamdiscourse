@@ -1,8 +1,6 @@
 {
-  "name": "Mint",
+  "name": "Barstream",
   "component": false,
-  "license_url": "https://github.com/discourse/discourse-mint-theme/blob/main/LICENSE",
-  "about_url": "https://meta.discourse.org/t/mint-a-modern-theme-for-discourse/202822",
   "authors": null,
   "theme_version": null,
   "minimum_discourse_version": null,
@@ -55,5 +53,4 @@
   },
   "modifiers": {
   },
-  "learn_more": "https://meta.discourse.org/t/beginners-guide-to-using-discourse-themes/91966"
 }

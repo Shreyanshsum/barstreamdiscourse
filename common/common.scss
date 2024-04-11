@@ -215,7 +215,6 @@ a {
     transition: all 0.3s linear;
     background-color: transparent;
     color: var(--tertiary);
-    border: 1px dashed var(--tertiary);
     border-bottom: 1px dashed !important;
   }
   &.active {

@@ -38,6 +38,7 @@
       }
       .btn-primary {
         display: none;
+        border: 1px solid rgb(0, 0, 0) !important;
       }
     }
     .btn-more {
@@ -292,6 +293,7 @@ a {
 
 .btn-primary {
   border-radius: var(--mint-border-radius);
+  border: 1px solid rgb(0, 0, 0) !important;
 }
 
 .discourse-no-touch .btn-danger:hover {
@@ -310,6 +312,7 @@ a {
 .edit-category-footer {
   .btn-primary {
     border-radius: var(--mint-border-radius);
+    border: 1px solid rgb(0, 0, 0) !important;
   }
 }
 
@@ -338,6 +341,7 @@ a:hover {
   }
   .btn-primary {
     border-radius: var(--mint-border-radius);
+    border: 1px solid rgb(0, 0, 0) !important;
   }
 }
 

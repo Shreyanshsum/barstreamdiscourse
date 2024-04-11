@@ -216,6 +216,7 @@ a {
     background-color: transparent;
     color: var(--tertiary);
     border: 1px dashed var(--tertiary);
+    border-bottom: 1px transparent !important;
   }
   &.active {
     border-radius: var(--mint-border-radius);
@@ -223,7 +224,7 @@ a {
     background: var(--mint-color-mint);
     color: var(--secondary);
     border: 1px solid rgb(0, 0, 0);
-    border-bottom: 2px solid rgb(0, 0, 0) !important;
+    border-bottom: 1px transparent  !important;
 }
 
 

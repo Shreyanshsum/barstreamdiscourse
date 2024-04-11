@@ -333,7 +333,7 @@ a:hover {
 .admin-container {
   .nav-pills > li a.active {
     background: var(--tertiary);
-    border: 1px solid rgb(0, 0, 0);
+    border: 1px solid rgb(0, 0, 0) !important;
     color: var(--secondary);
   }
   .btn-primary {

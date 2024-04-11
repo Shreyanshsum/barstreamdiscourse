@@ -231,7 +231,7 @@ a {
   background: var(--tertiary);
   border-radius: var(--mint-border-radius);
   border: 1px solid rgb(0, 0, 0) !important;
-  padding: 1;
+  padding: 1 !important;
   color: var(--secondary);
   svg {
     color: var(--secondary);

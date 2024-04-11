@@ -214,7 +214,7 @@ a {
     transition: all 0.3s linear;
     background-color: transparent;
     color: var(--tertiary);
-    border: 1px solid rgb(255, 255, 255);
+    border: 1px dashed var(--tertiary);
   }
   &.active {
     border-radius: var(--mint-border-radius);

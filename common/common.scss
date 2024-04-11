@@ -115,11 +115,11 @@ a {
     width: 100%;
     margin: 0;
     overflow: hidden;
-    border: none;
+    border: 1px solid black !important; 
     border-top: 8px solid;
     background: var(--secondary);
     border-radius: var(--mint-border-radius);
-    box-shadow: 4px 4px 0px 0px rgba(255, 0, 0, 0.14);
+    box-shadow: 4px 4px 0px 0px rgb(0, 0, 0)!important; 
     .category-box-inner {
       border: none;
       padding: 0;
@@ -339,7 +339,7 @@ a:hover {
 .custom-search-banner-wrap {
   border-radius: var(--mint-border-radius);
   box-shadow: 4px 4px 0px rgb(0, 0, 0);
-  border: 1px solid rgb(0, 0, 0);
+  border: 1px solid red;
   background: linear-gradient(
     270deg,
     var(--tertiary-medium) 0%,

@@ -9,8 +9,7 @@
     background-color: var(--primary-very-low);
     margin-top: 1em;
     box-sizing: border-box;
-    box-shadow: 4px 4px 0px rgb(0, 0, 0);
-    border: 1px solid rgb(0, 0, 0);
+    box-shadow: 2px 2px 0px 3px rgb(0, 0, 0);
     border-radius: var(--mint-border-radius);
     height: calc(
       var(--composer-vh, var(--1dvh)) * 100 - var(--header-offset, 0px) - 3em
